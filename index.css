@@ -1,0 +1,52 @@
+.conteiner{
+    width: 640px;
+    height: 480px;
+    margin:0 auto;
+}
+
+.navigation{
+    position: relative;
+    z-index: 3;
+}
+
+.navigation > span{
+    display: inline-block;
+    width: 70px;
+    height: 480px;
+    position: absolute;
+    background-color: black;
+    opacity: 0.1;
+
+}
+.right-button{
+
+    right: 0;
+
+}
+.left-button{
+
+    left: 0;
+
+}
+.slide{
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    position: absolute;
+}
+.slades {
+
+}
+.arrow-right{
+    height: 60px;
+    width: 52px;
+}
+
+.show {
+    opacity: 1;
+    z-index: 2;
+    position: absolute;
+}
